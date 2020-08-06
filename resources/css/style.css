@@ -247,7 +247,15 @@ h2 {
 .act-container {
   margin-left: 3rem;
   margin-right: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+}
+
+.act-container-2 {
+  margin-left: -1.5rem;
+}
+
+.act-end {
+  margin-bottom: 6rem;
 }
 
 .act-container .act-des p {
@@ -259,20 +267,34 @@ h2 {
   display: flex;
 }
 
-.flex-top {
+.flex-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-content {
   width: 95%;
 }
 
-.flex-bottom {
+.flex-content-2 {
+  padding-left: 8rem;
+}
+
+.flex-photo {
   margin-top: 3rem;
   width: 100%;
   height: 100%;
 }
 
-.flex-bottom img {
+.flex-photo img {
   float: right;
   width: 90%;
   height: 90%;
+}
+
+.flex-photo-2 img {
+  width: 92%;
+  height: 92%;
 }
 
 
