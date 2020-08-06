@@ -13,6 +13,8 @@
   font-style: normal;
 }
 
+
+
 /* End Fonts */
 
 html,body {
@@ -38,7 +40,7 @@ html,body {
   justify-content: center;
 }
 
-.logo-photo{
+.logo-photo {
   padding-top: 2%;
   width: 300px;
   height: 200px;
@@ -149,10 +151,6 @@ body {
   padding: 0;
 }
 
-header {
-
-}
-
 .header {
 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/forest.jpg);
 height: 220vh;
@@ -169,7 +167,6 @@ overflow: hidden;
 .hero-text {
   box-sizing: border-box;
   padding-top: 5%;
-  padding-right: ;
   text-align: center;
 }
 
@@ -201,12 +198,14 @@ h2 {
   padding: 10px;
   border: 2px solid #e3e3e3;
   margin-top: 10%;
+  transition: all .5s ease;
 
 }
 
 .learn-btn:hover {
   background-color: #e3e3e3;
   color: #000;
+  transform: translateY(-.2rem)
 }
 
 /* End btn */
@@ -227,17 +226,10 @@ h2 {
 /* Physical Activities */
 
 .physical-activities {
-  display: block;
-  background: linear-gradient(to right, rgb(23, 23, 23), rgb(16, 16, 16));
+  flex-direction: row;
+  background: linear-gradient(to right, rgb(251, 249, 249), rgb(224, 220, 220));
   color: #e3e3e3;
   font-size: 20px;
-  border-top: 1px solid #e3e3e3;
-  border-bottom: 1px solid #e3e3e3;
-}
-
-.activities {
-  padding-top: 5%;
-  padding-bottom: 5%;
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
 }
@@ -245,50 +237,71 @@ h2 {
 .physical-activities h2 {
   font-size: 42px;
   padding-top: 10%;
-  color: #e3e3e3;
-  padding-bottom: 10%;
+  color: black;
+  padding-bottom: 7.5%;
 }
 
-.activities-showcase {
-  margin-top: %;
+.physical-activities p {
+  color: black;
 }
 
-.act-item {
+.act-container-1{
   display: flex;
-  flex-shrink: 0;
-  flex-basis: auto;
-  margin-bottom: 7%;
-  line-height: 180%;
-  border-bottom: 1px solid #e3e3e3;
+  justify-content: space-evenly;
 }
 
-.act-des {
-  display: inline-block;
-  text-align: center;
+.act-container-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+  
+.act-item { 
+  height: 650px;
+  width: 400px;
+  line-height: 180%;
+  margin-bottom: 8%;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  background: linear-gradient(to right, rgb(217, 217, 217), rgb(248, 247, 247));
+  color: black;
+  border-radius: 5%;
 }
 
 .act-item-2 {
-  flex-direction: row-reverse;
-}
-
-.act-item-4 {
-  flex-direction: row-reverse;
-  border: none;
-}
-
-.act-item img {
-  width: 50%;
-  height: 70%;
-  padding: %;
-}
-
-.act-item p {
-  text-align: center;
-  padding: 4%;
+  background: linear-gradient(to left, rgb(217, 217, 217), rgb(248, 247, 247));
 }
 
 
 
+.act-item .act-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.act-item .act-heading-and-icon .act-icon img {
+  color: white;
+  margin-top: 5px;
+  padding-left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.act-heading-and-icon {
+  display: inline-block;
+  justify-content: center;
+}
+
+.act-header {
+  font-size: 30px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.act-des p {
+  padding: 1rem;
+  color: black;
+  margin-top: auto;
+}
 
 
 
