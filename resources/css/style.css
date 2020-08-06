@@ -315,6 +315,21 @@ h2 {
   height: 50px;
 }
 
+.act-button {
+  display: inline-block;
+  text-align: center; 
+  font-family: 'Raleway';
+  text-decoration: none;
+  color: #19191c;
+  font-size: 15px;
+  padding: 10px;
+  border: 2px solid #19191c;
+  margin-top: 3%;
+  transition: all .5s ease;
+  margin-left: 175px;
+  background-color: white;
+}
+
 
 /* End Physical */
 
